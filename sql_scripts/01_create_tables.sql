@@ -42,8 +42,8 @@ CREATE TABLE hac.station (
     id      INT PRIMARY KEY,
     city    VARCHAR(21) NOT NULL,
     state   VARCHAR(2)  NOT NULL,
-    lat_n   DECIMAL(10,8),
-    long_w  DECIMAL(10,8)
+    lat_n   DECIMAL(11,8),
+    long_w  DECIMAL(11,8)
 );
 
 -- ---------------------------------------------------------------------
