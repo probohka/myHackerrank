@@ -6,7 +6,7 @@ FROM postgres:17
 COPY csv /var/lib/postgresql/csv
 
 # Copy the initialization scripts into the Docker entrypoint directory
-COPY sql_scripts /docker-entrypoint-initdb.d
+COPY sql_scripts_сreate_tables /docker-entrypoint-initdb.d
 
 # Expose the PostgreSQL port (default 5432) in container
 EXPOSE 5432
