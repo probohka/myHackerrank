@@ -1,6 +1,7 @@
 services:
   db:
     image: my-hackerrank-db:1.0 # image name and tag
+    #container_name: my-hackerrank-container # <-- add container name if needed
     build: . # '.' - get data from currect directory
     env_file:
       - .env
