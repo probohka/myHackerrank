@@ -1,12 +1,13 @@
 services:
   db:
-    build: .
+    image: my-hackerrank-db:1.0 # image name and tag
+    build: . # '.' - get data from currect directory
     env_file:
       - .env
     ports:
-      - "5434:5432"
+      - "5434:5432" # computer port : container port
     volumes:
-      - pgdata:/var/lib/postgresql/data
+      - pgdata:/var/lib/postgresql/data 
 
 volumes:
-  pgdata:
+  pgdata: # Named volume for persisting database data
