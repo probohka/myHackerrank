@@ -1,5 +1,6 @@
 # Use the official PostgreSQL image from the Docker Hub
-FROM postgres:latest
+#FROM postgres:latest
+FROM postgres:17
 
 # Copy the CSV files into a directory inside the container
 COPY csv /var/lib/postgresql/csv
