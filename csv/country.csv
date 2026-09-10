@@ -1,0 +1,11 @@
+code,name,continent,region,surfacearea,indepyear,population,lifeexpectancy,gnp,gnpold,localname,governmentform,headofstate,capital,code2
+AFG,Afghanistan,Asia,Southern and Central Asia,652090.0,1919,22720000,45.9,5976.0,,Afganistan/Afqanestan,Islamic Emirate,Mohammad Omar,1,AF
+NLD,Netherlands,Europe,Western Europe,41526.0,1581,15864000,78.3,371362.0,360478.0,Nederland,Constitutional Monarchy,Beatrix,5,NL
+MAR,Morocco,Africa,Northern Africa,446550.0,1956,28351000,69.7,36124.0,35233.0,Al-Maghrib,Constitutional Monarchy,Mohammed VI,7,MA
+EGY,Egypt,Africa,Northern Africa,1001450.0,1922,68470000,63.3,82710.0,75617.0,Misr,Republic,Hosni Mubarak,9,EG
+NGA,Nigeria,Africa,Western Africa,923768.0,1960,111506000,51.6,73170.0,60822.0,Nigeria,Federal Republic,Olusegun Obasanjo,11,NG
+KEN,Kenya,Africa,Eastern Africa,580367.0,1963,30080000,48.0,9217.0,9114.0,Kenya,Republic,Daniel arap Moi,13,KE
+TUN,Tunisia,Africa,Northern Africa,163610.0,1956,9586000,73.7,20026.0,20505.0,Tunis,Republic,Zine al-Abidine Ben Ali,15,TN
+USA,United States,North America,North America,9363520.0,1776,278357000,77.1,8510700.0,8110900.0,United States,Federal Republic,George W. Bush,3813,US
+RUS,Russian Federation,Europe,Eastern Europe,17075400.0,1991,146934000,67.2,276608.0,442989.0,Rossija,Federal Republic,Vladimir Putin,3580,RU
+DEU,Germany,Europe,Western Europe,357022.0,1955,82164700,77.4,2133367.0,2102826.0,Deutschland,Federal Republic,Johannes Rau,3068,DE

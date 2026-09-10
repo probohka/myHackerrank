@@ -1,0 +1,16 @@
+id,name,countrycode,district,population
+1,Kabul,AFG,Kabol,1780000
+2,Qandahar,AFG,Qandahar,237500
+3,Herat,AFG,Herat,186800
+4,Mazar-e-Sharif,AFG,Balkh,127800
+5,Amsterdam,NLD,Noord-Holland,731200
+6,Rotterdam,NLD,Zuid-Holland,593321
+7,Casablanca,MAR,Grand Casablanca,2940000
+8,Rabat,MAR,Rabat-Sale-Zemmour-Zaer,623457
+9,Cairo,EGY,Kairo,6789479
+10,Alexandria,EGY,Aleksandria,3328196
+11,Lagos,NGA,Lagos,1518000
+12,Kano,NGA,Kano,2166000
+13,Nairobi,KEN,Nairobi,2290000
+14,Mombasa,KEN,Mombasa,461753
+15,Tunis,TUN,Tunis,690600
