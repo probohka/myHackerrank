@@ -18,13 +18,6 @@ CREATE TABLE hac.city (
     population   INT
 );
 
-DROP TABLE IF EXISTS hac.triangles;
-CREATE TABLE hac.triangles (
-    a INT NOT NULL,
-    b INT NOT NULL,
-    c INT NOT NULL
-);
-
 DROP TABLE IF EXISTS hac.country;
 CREATE TABLE hac.country (
     code            CHAR(3)      PRIMARY KEY,
