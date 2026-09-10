@@ -3,6 +3,7 @@ services:
     image: my-hackerrank-db:1.0 # image name and tag
     #container_name: my-hackerrank-container # <-- add container name if needed
     build: . # '.' - get data from currect directory
+    command: -c lc_messages=en_US.UTF-8 # Use only English language for messages
     env_file:
       - .env
     ports:
