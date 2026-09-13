@@ -77,22 +77,22 @@ COPY hac.company (company_code, founder)
 FROM '/var/lib/postgresql/csv/company.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',');
 
-COPY hac.lead_manager (lead_manager_code, company_code, lead_manager_name)
+COPY hac.lead_manager (lead_manager_code, company_code)
 FROM '/var/lib/postgresql/csv/lead_manager.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',');
 
 COPY hac.senior_manager (senior_manager_code, lead_manager_code,
-                          company_code, senior_manager_name)
+                          company_code)
 FROM '/var/lib/postgresql/csv/senior_manager.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',');
 
 COPY hac.manager (manager_code, senior_manager_code, lead_manager_code,
-                   company_code, manager_name)
+                   company_code)
 FROM '/var/lib/postgresql/csv/manager.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',');
 
 COPY hac.employee_hierarchy (employee_code, manager_code, senior_manager_code,
-                              lead_manager_code, company_code, employee_name)
+                              lead_manager_code, company_code)
 FROM '/var/lib/postgresql/csv/employee_hierarchy.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',');
 
