@@ -13,7 +13,7 @@ all occupations, output `NULL` values in the remaining rows for that column.
 
 **Example input → expected output:**
 
-![Occupations pivot example](Exercise_1.png)
+![Occupations pivot example](attachments/Exercise_1.png)
 
 ## Solution
 
