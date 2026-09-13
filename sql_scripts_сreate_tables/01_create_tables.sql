@@ -152,16 +152,14 @@ CREATE TABLE hac.company (
 DROP TABLE IF EXISTS hac.lead_manager;
 CREATE TABLE hac.lead_manager (
     lead_manager_code  VARCHAR(10) PRIMARY KEY,
-    company_code       VARCHAR(10) NOT NULL,
-    lead_manager_name  VARCHAR(255) NOT NULL
+    company_code       VARCHAR(10) NOT NULL
 );
 
 DROP TABLE IF EXISTS hac.senior_manager;
 CREATE TABLE hac.senior_manager (
     senior_manager_code  VARCHAR(10) PRIMARY KEY,
     lead_manager_code    VARCHAR(10) NOT NULL,
-    company_code         VARCHAR(10) NOT NULL,
-    senior_manager_name  VARCHAR(255) NOT NULL
+    company_code         VARCHAR(10) NOT NULL
 );
 
 DROP TABLE IF EXISTS hac.manager;
@@ -169,8 +167,7 @@ CREATE TABLE hac.manager (
     manager_code         VARCHAR(10) PRIMARY KEY,
     senior_manager_code  VARCHAR(10) NOT NULL,
     lead_manager_code    VARCHAR(10) NOT NULL,
-    company_code         VARCHAR(10) NOT NULL,
-    manager_name         VARCHAR(255) NOT NULL
+    company_code         VARCHAR(10) NOT NULL
 );
 
 DROP TABLE IF EXISTS hac.employee_hierarchy;
@@ -179,8 +176,7 @@ CREATE TABLE hac.employee_hierarchy (
     manager_code    VARCHAR(10) NOT NULL,
     senior_manager_code VARCHAR(10) NOT NULL,
     lead_manager_code   VARCHAR(10) NOT NULL,
-    company_code    VARCHAR(10) NOT NULL,
-    employee_name   VARCHAR(255) NOT NULL
+    company_code    VARCHAR(10) NOT NULL
 );
 
 -- ---------------------------------------------------------------------
