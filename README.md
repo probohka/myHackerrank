@@ -4,6 +4,12 @@ My personal repository for practicing SQL tasks from [HackerRank](https://www.ha
 
 The database runs in Docker (PostgreSQL) and is automatically seeded with the test data on first container start.
 
+## Skills demonstrated
+- Writing SQL across difficulty levels: basic SELECT, joins, aggregation, window functions, recursive/hierarchical queries
+- Designing a normalized schema and import pipeline from raw CSV data
+- Containerizing a database (PostgreSQL + Docker Compose) with automatic seeding
+- Organizing solutions by topic for readability and reuse
+
 ## Project structure
 
 ```
