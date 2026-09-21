@@ -24,6 +24,29 @@ myHackerrank/
 └── README.md
 ```
 
+## Architecture
+
+```
+csv/*.csv (raw source data)
+      │
+      ▼
+Dockerfile → COPY csv/ + sql_scripts_сreate_tables/ into postgres:17 image
+      │
+      ▼
+docker-compose up --build
+      │
+      ▼
+PostgreSQL container (localhost:5434)
+      │  entrypoint runs automatically on first start:
+      │    01_create_tables.sql  → creates the hac schema and tables
+      │    02_import_csv.sql     → COPY data from csv/ into the tables
+      ▼
+PostgreSQL, hac schema (data persisted in the pgdata volume)
+      │
+      ▼
+sql_scripts_exercise/*.sql → solution queries (HackerRank tasks)
+```
+
 ## Requirements
 
 - [Docker](https://www.docker.com/) and Docker Compose
